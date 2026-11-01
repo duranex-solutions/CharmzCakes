@@ -1423,6 +1423,68 @@ html.motion-ready .service-card[data-reveal]:focus-within {
     scroll-padding-top: 8.5rem;
   }
 
+  .hero {
+    background:
+      radial-gradient(ellipse at 78% 45%, rgb(238 214 235 / 42%), transparent 32rem),
+      linear-gradient(135deg, #fffafd 0%, #fff 58%, #fbf5f9 100%);
+  }
+
+  .hero::after {
+    opacity: 0.45;
+  }
+
+  .about {
+    background:
+      radial-gradient(ellipse at 6% 85%, rgb(231 195 219 / 24%), transparent 30rem),
+      linear-gradient(115deg, #fdf8fb, var(--cream) 58%, #fbf7fb);
+  }
+
+  .services {
+    background:
+      radial-gradient(ellipse at 16% 100%, rgb(244 212 231 / 42%), transparent 32rem),
+      linear-gradient(125deg, #eee8f4, #f0e8f1 52%, #f5edf2);
+  }
+
+  .services::before,
+  .services::after,
+  .contact::before {
+    opacity: 0.45;
+  }
+
+  .contact {
+    background:
+      radial-gradient(ellipse at 8% 15%, rgb(202 230 229 / 32%), transparent 30rem),
+      linear-gradient(145deg, #f8fbfb, #fff 58%, #fbf6fa);
+  }
+
+  .gallery-intro {
+    background:
+      radial-gradient(ellipse at 18% 65%, rgb(228 198 228 / 38%), transparent 28rem),
+      radial-gradient(ellipse at 82% 18%, rgb(243 211 228 / 42%), transparent 30rem),
+      linear-gradient(135deg, #fbf6fb, #fffafd 54%, #fbf5f9);
+  }
+
+  .gallery-intro::before,
+  .gallery-intro::after {
+    opacity: 0.55;
+  }
+
+  .gallery-section {
+    background:
+      radial-gradient(ellipse at 90% 10%, rgb(235 217 239 / 24%), transparent 30rem),
+      linear-gradient(180deg, #fdf9fc, #fff 28rem, #fdf9fc);
+  }
+
+  .gallery-cta {
+    background:
+      radial-gradient(ellipse at 50% 0%, rgb(255 255 255 / 76%), transparent 28rem),
+      linear-gradient(135deg, #f2e2eb, #eee7f3 56%, #f5e8ef);
+  }
+
+  .gallery-cta::before {
+    opacity: 0.5;
+  }
+
   .site-header {
     min-height: 0;
     flex-direction: column;
